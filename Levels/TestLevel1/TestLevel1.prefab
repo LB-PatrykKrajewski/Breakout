@@ -2264,6 +2264,28 @@
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 1209067557700208865
                 },
+                "Component_[12256352058674648809]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 12256352058674648809,
+                    "m_name": "BallLeavingAreaHandlerScript",
+                    "m_assetHolder": {
+                        "m_asset": {
+                            "assetId": {
+                                "guid": "{4AAC5B1E-437C-58F0-BA99-22D0B4909365}"
+                            },
+                            "assetHint": "scriptcanvas/ballleavingareahandlerscript.scriptcanvas"
+                        }
+                    },
+                    "runtimeDataIsValid": true,
+                    "runtimeDataOverrides": {
+                        "source": {
+                            "assetId": {
+                                "guid": "{4AAC5B1E-437C-58F0-BA99-22D0B4909365}"
+                            },
+                            "assetHint": "scriptcanvas/ballleavingareahandlerscript.scriptcanvas"
+                        }
+                    }
+                },
                 "Component_[1225948868677070782]": {
                     "$type": "EditorLockComponent",
                     "Id": 1225948868677070782
@@ -3417,6 +3439,240 @@
                 }
             }
         },
+        "Entity_[38776683956763]": {
+            "Id": "Entity_[38776683956763]",
+            "Name": "platform",
+            "Components": {
+                "Component_[12111017249258984432]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12111017249258984432,
+                    "Parent Entity": "Entity_[6623957409628]",
+                    "Transform Data": {
+                        "Translate": [
+                            12.716964721679688,
+                            1.0,
+                            1.166646957397461
+                        ]
+                    }
+                },
+                "Component_[138292252267111227]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 138292252267111227
+                },
+                "Component_[14155606968579756517]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 14155606968579756517,
+                    "ColliderConfiguration": {
+                        "Position": [
+                            -2.9000000953674316,
+                            0.30000001192092896,
+                            0.0
+                        ],
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1,
+                        "Box": {
+                            "Configuration": [
+                                7.800000190734863,
+                                2.5999999046325684,
+                                2.0011959075927734
+                            ]
+                        }
+                    }
+                },
+                "Component_[15299577967004507921]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 15299577967004507921
+                },
+                "Component_[15373285122305128532]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 15373285122305128532
+                },
+                "Component_[16833877566151124968]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 16833877566151124968
+                },
+                "Component_[17209016704493597366]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 17209016704493597366,
+                    "m_name": "BoxDestroyOnHit",
+                    "m_assetHolder": {
+                        "m_asset": {
+                            "assetId": {
+                                "guid": "{F4606C4E-2C93-5EBE-AAB4-9400BEE0E776}"
+                            },
+                            "assetHint": "scriptcanvas/boxdestroyonhit.scriptcanvas"
+                        }
+                    },
+                    "runtimeDataIsValid": true,
+                    "runtimeDataOverrides": {
+                        "source": {
+                            "assetId": {
+                                "guid": "{F4606C4E-2C93-5EBE-AAB4-9400BEE0E776}"
+                            },
+                            "assetHint": "scriptcanvas/boxdestroyonhit.scriptcanvas"
+                        }
+                    }
+                },
+                "Component_[2739563655150330222]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 2739563655150330222
+                },
+                "Component_[5198699658284818121]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 5198699658284818121
+                },
+                "Component_[6263042253077659604]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 6263042253077659604,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{6FFDAB1F-6F3C-5FCF-8B16-E0F3100D044A}",
+                                    "subId": 273862859
+                                },
+                                "assetHint": "assets/platform.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[6268473026244545817]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 6268473026244545817
+                },
+                "Component_[6678286106456766115]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 6678286106456766115
+                },
+                "Component_[7666896333055647785]": {
+                    "$type": "SelectionComponent",
+                    "Id": 7666896333055647785
+                }
+            }
+        },
+        "Entity_[38780978924059]": {
+            "Id": "Entity_[38780978924059]",
+            "Name": "platform",
+            "Components": {
+                "Component_[12111017249258984432]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12111017249258984432,
+                    "Parent Entity": "Entity_[6623957409628]",
+                    "Transform Data": {
+                        "Translate": [
+                            -1.4846305847167969,
+                            1.0,
+                            1.166646957397461
+                        ]
+                    }
+                },
+                "Component_[138292252267111227]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 138292252267111227
+                },
+                "Component_[14155606968579756517]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 14155606968579756517,
+                    "ColliderConfiguration": {
+                        "Position": [
+                            -2.9000000953674316,
+                            0.30000001192092896,
+                            0.0
+                        ],
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1,
+                        "Box": {
+                            "Configuration": [
+                                7.800000190734863,
+                                2.5999999046325684,
+                                2.0011959075927734
+                            ]
+                        }
+                    }
+                },
+                "Component_[15299577967004507921]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 15299577967004507921
+                },
+                "Component_[15373285122305128532]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 15373285122305128532
+                },
+                "Component_[16833877566151124968]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 16833877566151124968
+                },
+                "Component_[17209016704493597366]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 17209016704493597366,
+                    "m_name": "BoxDestroyOnHit",
+                    "m_assetHolder": {
+                        "m_asset": {
+                            "assetId": {
+                                "guid": "{F4606C4E-2C93-5EBE-AAB4-9400BEE0E776}"
+                            },
+                            "assetHint": "scriptcanvas/boxdestroyonhit.scriptcanvas"
+                        }
+                    },
+                    "runtimeDataIsValid": true,
+                    "runtimeDataOverrides": {
+                        "source": {
+                            "assetId": {
+                                "guid": "{F4606C4E-2C93-5EBE-AAB4-9400BEE0E776}"
+                            },
+                            "assetHint": "scriptcanvas/boxdestroyonhit.scriptcanvas"
+                        }
+                    }
+                },
+                "Component_[2739563655150330222]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 2739563655150330222
+                },
+                "Component_[5198699658284818121]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 5198699658284818121
+                },
+                "Component_[6263042253077659604]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 6263042253077659604,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{6FFDAB1F-6F3C-5FCF-8B16-E0F3100D044A}",
+                                    "subId": 273862859
+                                },
+                                "assetHint": "assets/platform.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[6268473026244545817]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 6268473026244545817
+                },
+                "Component_[6678286106456766115]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 6678286106456766115
+                },
+                "Component_[7666896333055647785]": {
+                    "$type": "SelectionComponent",
+                    "Id": 7666896333055647785
+                }
+            }
+        },
         "Entity_[4187026365550]": {
             "Id": "Entity_[4187026365550]",
             "Name": "Entity2",
@@ -4309,6 +4565,125 @@
                 }
             }
         },
+        "Entity_[8759157525019]": {
+            "Id": "Entity_[8759157525019]",
+            "Name": "GameInitializer",
+            "Components": {
+                "Component_[11054870319499497964]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 11054870319499497964,
+                    "m_template": {
+                        "$type": "InputConfigurationComponent",
+                        "Input Event Bindings": {
+                            "assetId": {
+                                "guid": "{87E55CD7-96B6-52D8-9CE6-E13B18ADCA7F}"
+                            },
+                            "assetHint": "inputbindings/speedball.inputbindings"
+                        }
+                    }
+                },
+                "Component_[13813806185945021775]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 13813806185945021775
+                },
+                "Component_[14347018483097209617]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 14347018483097209617,
+                    "m_name": "GameInitiate",
+                    "m_assetHolder": {
+                        "m_asset": {
+                            "assetId": {
+                                "guid": "{38A26681-C3E2-51B4-8E94-4653E26F8229}"
+                            },
+                            "assetHint": "scriptcanvas/gameinitiate.scriptcanvas"
+                        }
+                    },
+                    "runtimeDataIsValid": true,
+                    "runtimeDataOverrides": {
+                        "source": {
+                            "assetId": {
+                                "guid": "{38A26681-C3E2-51B4-8E94-4653E26F8229}"
+                            },
+                            "assetHint": "scriptcanvas/gameinitiate.scriptcanvas"
+                        }
+                    }
+                },
+                "Component_[16188020379831526782]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 16188020379831526782
+                },
+                "Component_[17428626874084806836]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17428626874084806836
+                },
+                "Component_[2731281517845277996]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 2731281517845277996
+                },
+                "Component_[3972447903200626609]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 3972447903200626609
+                },
+                "Component_[5872537162057716103]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 5872537162057716103
+                },
+                "Component_[6238687934067308848]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 6238687934067308848,
+                    "Parent Entity": "Entity_[1146574390643]",
+                    "Transform Data": {
+                        "Translate": [
+                            -48.98904800415039,
+                            -12.741943359375,
+                            9.07618522644043
+                        ]
+                    }
+                },
+                "Component_[7250032073310129429]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 7250032073310129429
+                },
+                "Component_[7874599475129725752]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 7874599475129725752,
+                    "m_name": "GameOverScript",
+                    "m_assetHolder": {
+                        "m_asset": {
+                            "assetId": {
+                                "guid": "{02B2D5A6-31FF-500A-8AB7-F618E9F23D3E}"
+                            },
+                            "assetHint": "scriptcanvas/gameoverscript.scriptcanvas"
+                        }
+                    },
+                    "runtimeDataIsValid": true,
+                    "runtimeDataOverrides": {
+                        "source": {
+                            "assetId": {
+                                "guid": "{02B2D5A6-31FF-500A-8AB7-F618E9F23D3E}"
+                            },
+                            "assetHint": "scriptcanvas/gameoverscript.scriptcanvas"
+                        },
+                        "entityId": [
+                            [
+                                {
+                                    "m_id": "{157476D2-E94E-4ED1-BA4B-56D8FEE9E467}"
+                                },
+                                ""
+                            ]
+                        ]
+                    }
+                },
+                "Component_[8618306379749154627]": {
+                    "$type": "SelectionComponent",
+                    "Id": 8618306379749154627
+                },
+                "Component_[8830475429173700362]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 8830475429173700362
+                }
+            }
+        },
         "Entity_[898766004060]": {
             "Id": "Entity_[898766004060]",
             "Name": "Floor",
@@ -4534,6 +4909,7 @@
                     "Id": 7715552829282225167,
                     "Configuration": {
                         "entityId": "",
+                        "Gravity Enabled": false,
                         "Mass": 4188.79052734375
                     }
                 }
