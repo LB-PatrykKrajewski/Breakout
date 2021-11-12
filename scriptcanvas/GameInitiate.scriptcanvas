@@ -5,9 +5,9 @@
     "ClassData": {
         "m_scriptCanvas": {
             "Id": {
-                "id": 526677214164597
+                "id": 67826656847629
             },
-            "Name": "Untitled-2",
+            "Name": "GameInitiate",
             "Components": {
                 "Component_[14219676063203007727]": {
                     "$type": "EditorGraphVariableManagerComponent",
@@ -20,7 +20,7 @@
                         "m_nodes": [
                             {
                                 "Id": {
-                                    "id": 526685804099189
+                                    "id": 67830951814925
                                 },
                                 "Name": "SendScriptEvent",
                                 "Components": {
@@ -114,7 +114,6 @@
                                         ],
                                         "Datums": [
                                             {
-                                                "isOverloadedStorage": false,
                                                 "scriptCanvasType": {
                                                     "m_type": 0
                                                 },
@@ -124,7 +123,6 @@
                                                 "label": "IsBallPlaying"
                                             },
                                             {
-                                                "isOverloadedStorage": false,
                                                 "scriptCanvasType": {
                                                     "m_type": 3
                                                 },
@@ -153,7 +151,6 @@
                                             "assetId": {
                                                 "guid": "{E7B0C273-27E3-5E25-8C70-068B01860A28}"
                                             },
-                                            "loadBehavior": "QueueLoad",
                                             "assetHint": "scriptevents/ballscriptevent.scriptevents"
                                         },
                                         "m_busId": {
@@ -167,7 +164,7 @@
                             },
                             {
                                 "Id": {
-                                    "id": 526681509131893
+                                    "id": 67835246782221
                                 },
                                 "Name": "SC-Node(Start)",
                                 "Components": {
@@ -199,16 +196,16 @@
                         "m_connections": [
                             {
                                 "Id": {
-                                    "id": 526690099066485
+                                    "id": 67839541749517
                                 },
                                 "Name": "srcEndpoint=(On Graph Start: Out), destEndpoint=(Send Script Event: In)",
                                 "Components": {
-                                    "Component_[15948144138551655116]": {
+                                    "Component_[15833097477077617263]": {
                                         "$type": "{64CA5016-E803-4AC4-9A36-BDA2C890C6EB} Connection",
-                                        "Id": 15948144138551655116,
+                                        "Id": 15833097477077617263,
                                         "sourceEndpoint": {
                                             "nodeId": {
-                                                "id": 526681509131893
+                                                "id": 67835246782221
                                             },
                                             "slotId": {
                                                 "m_id": "{F2FE6244-35B4-4B8A-9A68-C5B9AEA8F257}"
@@ -216,7 +213,7 @@
                                         },
                                         "targetEndpoint": {
                                             "nodeId": {
-                                                "id": 526685804099189
+                                                "id": 67830951814925
                                             },
                                             "slotId": {
                                                 "m_id": "{0AB02931-00B0-4990-86B7-0EC15A229CAC}"
@@ -229,7 +226,7 @@
                         "m_scriptEventAssets": [
                             [
                                 {
-                                    "id": 526685804099189
+                                    "id": 67830951814925
                                 },
                                 {}
                             ]
@@ -244,7 +241,7 @@
                     "GraphCanvasData": [
                         {
                             "Key": {
-                                "id": 526677214164597
+                                "id": 67826656847629
                             },
                             "Value": {
                                 "ComponentData": {
@@ -252,8 +249,8 @@
                                         "$type": "SceneComponentSaveData",
                                         "ViewParams": {
                                             "Scale": 0.7224999999999999,
-                                            "AnchorX": -766.781982421875,
-                                            "AnchorY": -480.2768249511719
+                                            "AnchorX": -981.3148803710938,
+                                            "AnchorY": -584.0830688476563
                                         }
                                     }
                                 }
@@ -261,37 +258,7 @@
                         },
                         {
                             "Key": {
-                                "id": 526681509131893
-                            },
-                            "Value": {
-                                "ComponentData": {
-                                    "{24CB38BB-1705-4EC5-8F63-B574571B4DCD}": {
-                                        "$type": "NodeSaveData"
-                                    },
-                                    "{328FF15C-C302-458F-A43D-E1794DE0904E}": {
-                                        "$type": "GeneralNodeTitleComponentSaveData",
-                                        "PaletteOverride": "TimeNodeTitlePalette"
-                                    },
-                                    "{7CC444B1-F9B3-41B5-841B-0C4F2179F111}": {
-                                        "$type": "GeometrySaveData",
-                                        "Position": [
-                                            -320.0,
-                                            120.0
-                                        ]
-                                    },
-                                    "{B0B99C8A-03AF-4CF6-A926-F65C874C3D97}": {
-                                        "$type": "StylingComponentSaveData"
-                                    },
-                                    "{B1F49A35-8408-40DA-B79E-F1E3B64322CE}": {
-                                        "$type": "PersistentIdComponentSaveData",
-                                        "PersistentId": "{364602AD-9A28-4303-B68D-94FD363A4D53}"
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "Key": {
-                                "id": 526685804099189
+                                "id": 67830951814925
                             },
                             "Value": {
                                 "ComponentData": {
@@ -305,8 +272,8 @@
                                     "{7CC444B1-F9B3-41B5-841B-0C4F2179F111}": {
                                         "$type": "GeometrySaveData",
                                         "Position": [
-                                            -100.0,
-                                            80.0
+                                            -300.0,
+                                            -60.0
                                         ]
                                     },
                                     "{B0B99C8A-03AF-4CF6-A926-F65C874C3D97}": {
@@ -316,6 +283,36 @@
                                     "{B1F49A35-8408-40DA-B79E-F1E3B64322CE}": {
                                         "$type": "PersistentIdComponentSaveData",
                                         "PersistentId": "{0A4AFDE6-1ECD-4DBF-9EFC-65BE93142C40}"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "id": 67835246782221
+                            },
+                            "Value": {
+                                "ComponentData": {
+                                    "{24CB38BB-1705-4EC5-8F63-B574571B4DCD}": {
+                                        "$type": "NodeSaveData"
+                                    },
+                                    "{328FF15C-C302-458F-A43D-E1794DE0904E}": {
+                                        "$type": "GeneralNodeTitleComponentSaveData",
+                                        "PaletteOverride": "TimeNodeTitlePalette"
+                                    },
+                                    "{7CC444B1-F9B3-41B5-841B-0C4F2179F111}": {
+                                        "$type": "GeometrySaveData",
+                                        "Position": [
+                                            -560.0,
+                                            -20.0
+                                        ]
+                                    },
+                                    "{B0B99C8A-03AF-4CF6-A926-F65C874C3D97}": {
+                                        "$type": "StylingComponentSaveData"
+                                    },
+                                    "{B1F49A35-8408-40DA-B79E-F1E3B64322CE}": {
+                                        "$type": "PersistentIdComponentSaveData",
+                                        "PersistentId": "{364602AD-9A28-4303-B68D-94FD363A4D53}"
                                     }
                                 }
                             }
